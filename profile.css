@@ -1,0 +1,668 @@
+#BarraPrincipale{
+    display: flex;
+    align-items:center;
+    height: 10% ;
+    width: 97%;
+    margin: 0 auto 1% auto;
+    justify-content:space-between;
+    
+    } 
+    #BarraPrincipale .logo{
+        background-image: url(https://www.bulk.com/static/version1710741134/frontend/BulkPowders/old-rebrand/default/images/logo.svg);
+        width:10%;
+        height: 90px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100%;
+      
+      }
+      #BarraPrincipale .Barra {
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #c2c2c2;
+        width:55%;
+        height: 65%;
+      }
+      #BarraPrincipale .Barra .inputcerca
+{
+  height: 65%;
+  width: 85%;
+  border:10px solid #c2c2c2;
+  color: white;
+  font-size: 20;
+  background-color: #c2c2c2;
+  margin: auto 0 auto 0;
+}
+#BarraPrincipale .Barra  #iconaBarraWeb{
+
+ width: 5%;
+ height: 70%;
+ margin: 8px 4px 0% 18;
+}
+#BarraPrincipale .Barra  #iconaBarraweb img{
+width: 35px;
+height: 35px;
+}
+
+#BarraPrincipale .Barra #ButtonCerca
+{
+  margin: auto 0 auto 0;
+width: 5%;
+height: 80%;
+cursor: pointer;
+}
+#BarraPrincipale .Barra #ButtonCerca p
+{
+  margin: 0 0 0 0;
+  font-size: 30;
+  font-weight: 600;
+}
+#BarraPrincipale .logonazione{
+  background-color:green;
+  border-radius:20px;
+  width: 7%;
+  text-align: center;
+  height: 30%;
+}
+#BarraPrincipale .divisore{
+  background-position: center;
+  background-color:black;
+  background-size: 80px;
+  background-color:black;
+  width:0.2%;
+  height: 50%;
+}
+#BarraPrincipale .utente{
+   border-radius: 10px;
+  background-color: purple;
+  width:5%;
+  text-align: center;
+  height: 30%;
+}
+#BarraPrincipale .carrello{
+  background-color:red;
+  border-radius:10px;
+  width: 4%;
+  height: 55%;
+}
+
+.hidden{
+    display: none;
+  }
+  #BarraProdotto{
+    margin-top: auto;
+    margin: 1% auto 1% auto;
+    width: 97%;
+   display: flex; 
+  justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+  }
+ #BarraProdotto a
+ {
+   cursor: pointer;
+   
+   flex-direction: row;
+   align-items: center;
+ }
+
+ .UserInfo{
+    text-align: center;
+    font-size: 30;
+    font-weight: 600;
+ }
+ .ProdottoArticoloInfo .imgArticolo img
+{
+  width: 450px; 
+
+ border-radius: 20px;
+}
+.ProdottoArticoloInfo{
+  width: 30%;
+}
+.ProdottoArticoloInfo .imgArticolo
+{
+ position: relative;
+
+}
+
+.ProdottoArticoloInfo .Prova
+{
+ display: flex;
+ flex-direction: row;
+
+}
+.ProdottoArticoloInfo .TestoArticolo
+{
+ width: 100%;
+ height: 100%;
+ 
+}
+.ProdottoArticoloInfo .TestoArticolo h2{
+font-size: 20;
+font-weight: 600;
+text-align: left;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .Gusto
+{
+  width: 20%;
+cursor: pointer;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonZoom
+{
+width: 20%;
+cursor: pointer;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonPreferito
+{
+width: 33%;
+cursor: pointer;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonPreferito p
+{
+  color: blue;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonZoom p
+{
+  color: red;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto p
+{
+  text-align: center;
+
+background-color: #f7f7f7;
+border: 2px solid #f7f7f7;
+border-radius: 10px;
+}
+.ProdottoArticoloInfo .TestoArticolo .Costo .Prezzo
+{
+  font-weight: 500;
+  font-size: 28;
+}
+.ProdottoArticoloInfo .TestoArticolo .Costo .Sconto
+{
+  
+  font-weight: 500;
+  font-size: 28;
+  margin-left: 1%;
+  color: red;
+}
+.ProdottoArticoloInfo .TestoArticolo .Costo
+{
+display: flex;
+flex-direction: row;
+}
+
+#VetrinaPreferiti
+{
+  display: flex;
+  width: 86%;
+    height: 46%;
+  flex-direction: column;
+  margin: 0% auto 0% auto;
+justify-content: space-between;
+}
+#VetrinaPreferiti .ProdottiArticoli
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+   overflow-x: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+#VetrinaPreferiti #ArticoliPreferiti{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+justify-content: space-between;
+
+}
+#VetrinaPreferiti .ProdottoArticoloInfo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+#VetrinaPreferiti h1
+{
+  font-size: 50;
+  font-weight: 600;
+}
+
+
+.container
+{
+    height: 2000px;
+}
+#modalview{
+    position: absolute;
+      height: 100vh;
+      width: 100vw;
+  
+      background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #modalview img
+    {
+      width: 40%;
+      height: 80%;
+  
+    }
+    #modalview.hidden{
+      display: none;
+    }
+    .no-scroll {
+        overflow: hidden;
+      }
+      #Modalview .CarelloLaterale{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        margin: 0 0 0 auto;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: column;
+      
+      }
+      #Modalview .CarelloLaterale .TextCarrello
+      {
+      width: 100%;
+      height:auto;
+      text-align: center;
+      background-color: #fff;
+      }
+      #Modalview .CarelloLaterale .PrezzoCarrello{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+      
+      }
+      #Modalview .CarelloLaterale .PrezzoCarrello p{
+        width: 95%;
+        height: 10%;
+      display: flex;
+      flex-direction: column;
+      }
+      #Modalview .CarelloLaterale .ButtonCarrello{
+        width: 100%;
+        height: 20%;
+      
+      }
+      #Modalview .contenitoreelementicarrello
+      {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      }
+      #Modalview .CarelloLaterale .containerprez .ButtonPaga {
+      
+        border-radius: 10px;
+        width: 95%;
+        margin: auto auto auto auto;
+      text-align: center;
+        background-color: #e7e7e7;
+        height: 15%;
+      }
+      #Modalview .CarelloLaterale .contenitoreelementicarrello
+      {
+        width: 100%;
+        height: 70%;
+        background-color: #fff;
+        overflow-y: auto;
+          overflow-x: hidden;
+      }
+      #Modalview .CarelloLaterale .containerprez p
+      {
+      text-align: right;
+      }
+      #Modalview .CarelloLaterale .containerprez
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      width: 100%;
+      height: 15%;
+      }
+      #Modalview .ProdottoCheckout
+      {
+      display: flex;
+      border:2px solid black;
+      border-radius: 10px;
+      width: 95%;
+      margin: 0 auto 2% auto;
+      height: auto;
+      flex-direction: row;
+      justify-content: space-between;
+      }
+      
+      #modalview .ProdottoCheckout  img
+      {
+        width: 40%;
+        border-radius: 10px;
+      height: 100%;
+      }
+      #Modalview .ProdottoCheckout .ProdottoCheckoutContainer
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+      
+        height: 100%;
+      }
+      
+      
+      #Modalview .ProdottoCheckout .ProdottoCheckoutPrezzo
+      {
+        text-align: center;
+        height: auto;
+        width: auto;
+        margin: 2% 0 3% 0;
+      }
+      
+      #Modalview .ProdottoCheckout .ProdottoCheckoutNome
+      {
+        text-align: center;
+        height: auto;
+        width: auto;
+          margin: 2% 0 3% 0;
+      }
+      #Modalview .ProdottoCheckout .ProdottoCheckoutTipogia
+      {
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: 2% 0 3% 0;
+      
+      
+      }
+    
+     
+      #CercaSpotify 
+      {
+      font-size: 30;
+      margin-top: 6%;
+      font-weight: 600;
+      text-align: center;
+      }
+      #search input[type=submit]
+      {
+        display: none;
+      }
+      #PlaylistPreferite
+      {
+        display: flex;
+        border: 5px solid black;
+        margin: 6% 10% auto 10%;
+        border-radius: 6px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #PlaylistPreferite h1
+      {
+       font-size: 50;
+       font-weight: 600;
+      }
+      #PreferitiSpotify{
+        display: flex;
+        justify-content: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 95%;
+        flex-shrink: 0;
+        flex-grow: 1;
+      }
+    
+      
+      #results{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 95%;
+        flex-shrink: 0;
+        flex-grow: 1;
+      }
+      
+     .track{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        height: 20%;
+        background-color: #10142d;
+        border-radius: 8px;
+        margin: 15px;
+        transition: width 0.2s, background-color 0.2s;
+      }
+      
+     .track:hover{
+        background-color: #191F45;
+      }
+    
+      .trackInfo{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      #PreferitiSpotify .trackInfo:hover + .saveForm{
+        opacity: 1;
+      }
+    
+      #result .trackInfo:hover + .saveForm{
+        opacity: 1;
+      }
+      .saveForm{
+        opacity: 0;
+      }
+    
+      .saveForm:hover{
+        opacity: 1;
+      }
+    
+      .save{
+        width: 50px;
+        height: 50px;
+        background-color: #10142d;
+        position: absolute;
+        transition: opacity 0.3s;
+        margin-left: -60px;
+        color: rgba(255, 355, 255, 0);
+        margin-top: 200px;
+        border: none;
+        border-radius: 50px;
+        background: rgb(0 0 0 / 50%) url(assets/heart.svg) 10px 12px no-repeat;
+        background-size: 30px 30px;
+      }
+    
+    
+    
+      .saveIcon{
+        margin-left: -50px;
+        padding-top: 212px;
+        width: 30px;
+        box-shadow: none;
+        position: absolute;
+      }
+      
+      #result .artistaInfo, .canzoneInfo{
+        display: none;
+      }
+      #PreferitiSpotify .artistaInfo, .canzoneInfo{
+        display: none;
+      }
+       .trackInfo img{
+        width: 100%;
+        max-width: 260px;
+        box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+        transition: width 0.2s;
+      }
+      
+     .trackInfo .img-selected{
+        width: 80%;
+        max-width: 260px;
+      }
+      
+      #result .artistaInfo p{
+        margin-top: 0;
+      }
+      #PreferitiSpotify .artistaInfo p{
+        margin-top: 0;
+      }
+      .infoContainer{
+        min-height: 62px;
+      }
+      
+      .show{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        color: white;
+      }
+      
+      .selected{
+        position: fixed;
+        width: 50%;
+        height: auto;
+        z-index: 10;
+        left: 25%;
+        top: 25%;
+        box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+      }
+      
+      .unselected{
+        height: 50%;
+      }
+      
+      @media (max-width: 500px) {
+        .artisti, .canzoni {
+          width: auto;
+          margin: 0 auto 30px;
+        }
+      }
+    
+      .track a{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      
+      strong{
+        font-size: 18px;
+        margin-top: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    
+      .showTitle{
+        overflow: visible;
+      }
+    
+    
+ 
+
+  
+      
+      .infoContainer{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      }
+      
+      .infoSelected{
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      }
+      
+      .info{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      max-width: 230px;
+      color: white;
+      }
+      
+      .icon{
+      width: 10%;
+      max-width: 30px;
+      }
+      
+      .favoriteCard{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 20%;
+        height: 85%;
+        background-color: #10142d;
+        border-radius: 8px;
+        margin-right: 30px;
+      }
+      
+      .hidden{
+      display:none;
+      }
+      
+      .detail{
+      margin-top: 10px;
+      }
+      
+      .search{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      text-align: center;
+      }
+      
+      .search label{
+      margin-right: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      }
+    
+      .search input:focus{
+        outline: none;
+      }
+      
+      .searchBar{
+      font-size: 16px;
+      width: 50%;
+      height: 50px;
+      padding: 16px 14px 18px;
+      border: 2px solid #070a21;
+      border-radius: 50px;
+      margin-top: 5px;
+      font-size: 16px;
+      margin-bottom: 8px;
+      }
+      
+      .sectionTitle{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      }
+      

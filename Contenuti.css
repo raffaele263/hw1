@@ -1,0 +1,234 @@
+
+nav{
+    width: 100%;
+    margin: 1% auto 1% auto;
+  }
+  #BarraPrincipale{
+    display: flex;
+    align-items:center;
+    height: 20% ;
+    width: 100%;
+    margin: 0 auto 1% auto;
+    justify-content:space-between;
+    
+    } 
+    #BarraPrincipale .logo{
+        background-image: url(https://www.bulk.com/static/version1710741134/frontend/BulkPowders/old-rebrand/default/images/logo.svg);
+        width:10%;
+        height: 90px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100%;
+      
+      }
+      #BarraPrincipale .Barra {
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #c2c2c2;
+        width:55%;
+        height: 65%;
+      }
+      
+      #iconaBarraweb img{
+        width: 35px;
+        height: 35px;
+        }
+      
+      #BarraPrincipale .Barra .inputcerca
+      {
+        height: 65%;
+        width: 85%;
+        border:10px solid #c2c2c2;
+        color: white;
+        font-size: 20;
+        background-color: #c2c2c2;
+        margin: auto 0 auto 0;
+      }
+      #BarraPrincipale .Barra  #iconaBarraWeb{
+      
+       width: 5%;
+       height: 70%;
+       margin: 8px 4px 0% 18;
+      }
+      #BarraPrincipale .Barra  #iconaBarraweb img{
+      width: 35px;
+      height: 35px;
+      }
+      
+      #BarraPrincipale .Barra #ButtonCerca
+      {
+        margin: auto 0 auto 0;
+      width: 5%;
+      height: 80%;
+      cursor: pointer;
+      }
+      #BarraPrincipale .Barra #ButtonCerca p
+      {
+        margin: 0 0 0 0;
+        font-size: 30;
+        font-weight: 600;
+      }
+      #BarraPrincipale .logonazione{
+        background-color:green;
+        border-radius:20px;
+        width: 3%;
+        height: 40%;
+      }
+      #BarraPrincipale .divisore{
+        background-position: center;
+        background-color:black;
+        background-size: 80px;
+        background-color:black;
+        width:0.2%;
+        height: 50%;
+      }
+      #BarraPrincipale .utente{
+         border-radius: 10px;
+        background-color: purple;
+        width:4%;
+        height: 55%;
+      }
+      #BarraPrincipale .carrello{
+        background-color:red;
+        border-radius:10px;
+        width: 4%;
+        height: 55%;
+      }
+      nav.a{
+        font-weight: bold;
+        font-size: 24px;
+        background-color: tomato;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 50px;
+    
+    }
+    .hidden{
+        display: none;
+      }
+      #BarraProdotto{
+        margin-top: auto;
+        margin: 1% auto 1% auto;
+        width: 97%;
+       display: flex; 
+      justify-content: space-between;
+        font-family: Helvetica, sans-serif;
+      }
+    
+     #BarraProdotto a
+    {
+      cursor: pointer;
+      
+      flex-direction: row;
+      align-items: center;
+    }      
+    #Articoli
+    {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+  #Articoli  .ProdottoArticolo
+{
+  width: 20%;
+  margin: 2% 5% 3% 5%;
+display: flex;
+height: 20%;
+justify-content: space-between;
+  padding-left: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+} 
+.ProdottoArticolo .imgArticolo img
+{
+  width: 300px; 
+
+ border-radius: 20px;
+}
+.ProdottoArticolo{
+  width: 30%;
+}
+.ProdottoArticolo .imgArticolo
+{
+ position: relative;
+
+}
+
+.ProdottoArticolo .Prova
+{
+ display: flex;
+ flex-direction: row;
+
+}
+.ProdottoArticolo .TestoArticolo
+{
+ width: 100%;
+ height: 100%;
+ 
+}
+.ProdottoArticolo .TestoArticolo h2{
+font-size: 20;
+font-weight: 600;
+text-align: left;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto .Gusto
+{
+  width: 20%;
+cursor: pointer;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto .ButtonZoom
+{
+width: 20%;
+cursor: pointer;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto .ButtonPreferito
+{
+width: 20%;
+cursor: pointer;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto .ButtonPreferito p
+{
+  color: blue;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto .ButtonZoom p
+{
+  color: red;
+}
+.ProdottoArticolo .TestoArticolo .ButtonProdotto p
+{
+  text-align: center;
+
+background-color: #f7f7f7;
+border: 2px solid #f7f7f7;
+border-radius: 10px;
+}
+.ProdottoArticolo .TestoArticolo .Costo .Prezzo
+{
+  font-weight: 500;
+  font-size: 28;
+}
+.ProdottoArticolo .TestoArticolo .Costo .Sconto
+{
+  
+  font-weight: 500;
+  font-size: 28;
+  margin-left: 1%;
+  color: red;
+}
+.ProdottoArticolo .TestoArticolo .Costo
+{
+display: flex;
+flex-direction: row;
+}

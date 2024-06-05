@@ -1,0 +1,684 @@
+#BarraPrincipale{
+  display: flex;
+  align-items:center;
+  height: 10px ;
+  justify-content:space-between;
+  margin-bottom: 10px;
+  }
+ .logo{
+  background-image: url(https://www.bulk.com/static/version1710741134/frontend/BulkPowders/old-rebrand/default/images/logo.svg);
+  
+  width:130px;
+  height:50px;
+  margin-left:10px;
+  margin-right:10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  margin-top:30px;
+}
+.Barra {
+  margin-top:30px;
+  border-radius: 10px;
+  background-color: Grey;
+  width: 800px;
+  height: 30px;
+  margin-top:36px;
+  margin-left:20px;
+  margin-right:2px;
+}
+.logonazione{
+  margin-top:50px;
+  background-color:green;
+  border-radius:20px;
+  width:30px;
+   margin-top:36px;
+  margin-left: 2px;
+  margin-right:5px;
+  height: 30px;
+}
+.divisore{
+  background-position: center;
+  background-color:black;
+  background-size: 80px;
+  background-color:black;
+  width:2px;
+  margin-right:10px;
+  margin-left:20px;
+  margin-top:36px;
+  height:30px;
+}
+.utente{
+   border-radius: 10px;
+  background-color: purple;
+  margin-left: 10px;
+  width: 60px;
+  height: 30px;
+  margin-left:15px;
+  margin-top:36px;
+  margin-right:10px;
+}
+.carrello{
+  background-color:red;
+  border-radius:10px;
+  margin-top:36px;
+  margin-left:10px;
+  height:30px;
+  width:60px;
+}
+
+body {
+  width: 100%;
+
+  }
+  nav.a{
+      font-weight: bold;
+      font-size: 24px;
+      background-color: tomato;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 50px;
+  
+  }
+  .Offerte{
+    color: red;
+  }
+  #BarraProdotto{
+    margin-top: auto;
+    display: flex;
+    height: 100px ;
+   justify-content: space-around;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+#BarraProdotto a
+{
+  cursor: pointer;
+}
+   
+section
+{
+width: 100%;
+height: 3000px;
+}
+#Banner
+{
+
+height: 14%;
+width: 100%;
+
+}
+
+
+#imgBanner a.button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+ height: 60px;
+ width: 120px;
+background-color: white;
+  cursor: pointer;
+
+ 
+  border: 2px solid red;
+  border-radius: 100px;
+}
+#imgBanner a.button #textbutton{
+  align-items: stretch;
+  color: black;
+ 
+  justify-content: left;
+  
+text-align: center;
+ }
+ 
+ #imgbanner #taglioimgbanner
+ {
+  width: 40%;
+  height: 400px;
+ }
+ #imgBanner div
+ {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ }
+ #imgBanner div p
+ {
+  font-size: 16;
+  text-align: center;
+  color: white;
+  align-items: center;
+ }
+#imgBanner
+{
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 1400px;
+  margin: 15px auto;
+  width: calc(100% - 30px);
+  position: relative;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(risorse/desktop_v1_1_.jpeg);
+ 
+
+  border: 2px solid red;
+}
+#imgklarna {
+
+border: 1px solid grey;
+border-radius: 2px;
+background-color: #fff;
+border: 1px solid #d6d6d6;
+border-radius: 10px;
+position: relative;
+width: calc(100% - 30px);
+height: 60px;
+display: block;
+margin: 20px auto;
+max-width: 1400px;
+}
+#imgklarna div
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+#imgklarna .text{
+display: flex;
+flex-direction: row;
+  position: relative;
+  width: auto
+}
+#imgklarna .text p {
+  display: inline;
+  position: relative;
+ 
+}
+#imgklarna .image
+{
+
+  padding: 0 17px 0 9px;
+}
+#imgklarna .image img
+{
+  width: 60px;
+    display: block;
+}
+
+#SelezioneProdotti
+{
+  
+  display: flex;
+  width: 60%;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#SelezioneProdottiIndex
+{
+  width: 100%;
+justify-content: center;
+max-width: 1400px;
+margin: 0 auto;
+padding: 30px 0 10px 15px;
+}
+#SelezioneProdotti a
+{
+  cursor: pointer;
+  text-align: center;
+  align-items: stretch;
+  font-size: 19px;
+  font-weight: 600;
+      color: black;
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 20px;
+      border: 2px solid grey ;
+}
+#Nuovi_Alimenti
+{
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: 20%;
+ 
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 2px;
+  flex-direction: column;
+}
+#Nuovi_Alimenti .text
+{
+  display: flex;
+flex-direction: row;
+}
+#Nuovi_Alimenti .ProdottiArticoli
+{
+  display: flex;
+  flex-direction: row;
+}
+#ArticoliPreferiti
+{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 2px;
+  flex-direction: row;
+  padding-bottom: 26px
+}
+div.ProdottoArticoloInfo
+{
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+div.ProdottoArticoloInfo .ImgArticolo img{
+  width: 100%;
+}
+
+div.ProdottoArticoloInfo .TestoArticolo
+{
+  width: 150px;
+  height: 200px;
+
+}
+
+#Vetrina1{
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+margin: 6% auto 3% auto;
+}
+#Vetrina1 h2{
+  text-align: center;
+  
+}
+#Vetrina1 p{
+text-align: center;
+}
+#Vetrina2{
+  display: flex;
+  margin: 4% auto 4% auto;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.VetrinaPromozioniTesto a.button {
+  display: flex;
+  width: 120px;
+  height:40px;
+  flex-direction: row;
+  border: 2px solid black;
+  cursor: pointer;
+
+  align-items: center;
+  border-radius: 10px;
+}
+
+.VetrinaPromozioniFoto
+{
+  width: 66.66%;
+  background-size: cover;
+  background-position: right center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.VetrinaPromozioniFoto img
+{
+  width: 100%;
+}
+.VetrinaPromozioniTesto
+{
+  
+  align-items: stretch;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.VetrinaPromozioniTesto p
+{
+  align-items: stretch;
+  width: 90%;
+  font-size: 20;
+color: black;
+}
+.VetrinaPromozioniTesto h2
+{
+  
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+#SelObiettivi
+{
+  display: flex;
+  width: 100%;
+  padding: 0 0 20px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  border-radius: 6px;
+  max-width: 1400px;
+
+}
+
+#SelObiettivi a
+{
+border: 2px solid black;
+border-radius: 2px;
+width: 100px;
+text-align: center;
+justify-content: center;
+height: 100px;
+position: relative;
+    width: calc(20% - 32px);
+    min-width: calc(20% - 32px);
+    padding: 17% 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    margin: 0 40px 0 0;
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+}
+
+#SelObiettivi #Resistenza
+{
+ width: 100px;
+ height: 100px;
+  background-image: url('risorse/obiettivi/Build_Muscle_640x640.webp');
+  background-size: cover;
+}
+#SelObiettivi p
+{
+top: 50%;
+left: 50%;
+position: absolute;
+color: white;
+z-index: 1;
+align-items: center;
+text-align: center;
+}
+#SelObiettivi #MangiaVegano
+{
+ width: 100px;
+ background-size: cover; 
+ height: 100px;
+  background-image: url('risorse/obiettivi/eat_vegan_image.webp');
+}
+
+#SelObiettivi #AumentoMuscolatura
+{
+ width: 100px;
+ background-size: cover;
+ height: 100px;
+  background-image: url("risorse/obiettivi/Endurance_640x640.webp");
+}
+
+#SelObiettivi #SaluteeBenessere
+{
+ width: 100px;
+ background-size: cover;
+ height: 100px;
+  background-image: url("risorse/obiettivi/Health_Wellness_640x640.webp");
+}
+#SelObiettivi #MangiaPulito
+{
+ width: 100px;
+ height: 100px;
+ background-size: cover;
+  background-image: url(risorse/obiettivi/Weight_Loss_640x640.webp);
+}
+
+
+
+
+
+
+
+
+
+#newsletter
+{
+  padding: 80px 0 20px;
+  margin: 0 0 55px auto;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+#newsletter #text
+{
+
+text-align: center;
+font-weight: 600;
+font-size: 34;
+}
+#newsletter #text2
+{
+
+text-align: center;
+font-weight: 600;
+margin-top: 1%;
+font-size: 16;
+}
+#newsletter #Email
+{
+  
+
+  border: 2px solid grey;
+  border-radius: 10px;
+  text-align: center;
+   height: 15%;
+   width: 40%;
+  margin: 30px;
+}
+
+#newsletter #buttonnewsletter
+{
+  text-align: center ;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#Barrafooter
+{
+  margin: 60px auto 60px auto;
+  width: 100%;
+  display: flex;
+  
+  align-items: center;
+}
+
+#Barrafooter .card
+{
+  
+  align-items:center;
+  height: 240px;
+}
+#Barrafooter .card .button a
+{
+  margin: auto auto auto auto;
+  text-align: center;
+ }
+.card
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:center;
+}
+.card .image img
+{
+justify-content: left;
+height: 40px;
+width: 40px;
+}
+.card .image
+{
+  
+}
+.card .head
+{
+  margin: auto auto auto auto;
+  line-height: 1.1;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #000;
+    margin: 0;
+}
+.card .paragrafo
+{
+  margin: 6px auto 10px auto;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+    width: 100%;
+}
+
+.card .button
+{
+display: flex;
+padding-left: 2px;
+align-items: center;
+  height: 40px;
+  width: 100px;
+border: 4px solid black;
+border-radius: 10px;
+}
+
+
+footersec
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color:  #fafafa ;
+ height: 600px;
+ align-items: center;
+margin: auto auto auto auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footercondcart{
+  height: 20%;
+  width: 100%;
+  display: flex ;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#Footermenu
+{
+  height: 80%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#Footercondizioni
+{
+  display: flex;
+  height: 40px ;
+  width: 60%;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+#Footercondizioni a
+{
+  margin: 4px;
+}
+#FooterCarte
+{
+  display: flex;
+    width: 35%;
+    flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;  
+}
+#FooterCarte img
+{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  height: 30px ;
+  width: 50px;
+  margin: 2px;
+  
+}
+#footmenusocial
+{
+  display: flex;
+  height: 70%;
+  width: 100%;
+  flex-direction:row;
+  justify-content: flex-end;
+  align-items: end;
+}
+#footersocial 
+{
+  display: flex;
+  margin: 8% 1% auto auto;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+#footersocial img
+{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height: 5% ;
+width: 5%;
+
+}
+footer a{
+  cursor: pointer;
+}
+footer {
+  background-color:  #fafafa ;
+  height: 400px;
+}
+
+
+

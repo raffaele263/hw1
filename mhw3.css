@@ -1,0 +1,1359 @@
+
+nav{
+  width: 100%;
+  margin: 1% auto 1% auto;
+}
+#BarraPrincipale{
+  display: flex;
+  align-items:center;
+  height: 60% ;
+  width: 97%;
+  margin: 0 auto 1% auto;
+  justify-content:space-between;
+  
+  } 
+  #modalview{
+  position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgba(0, 0, 0, 0.7);
+overflow: auto;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #modalview img
+  {
+    width: 40%;
+    height: 80%;
+
+  }
+  #modalview.hidden{
+    display: none;
+  }
+  #BarraProdotto{
+    margin-top: auto;
+    margin: 1% auto 1% auto;
+    width: 97%;
+   display: flex; 
+  justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+  }
+
+ #BarraProdotto a
+{
+  cursor: pointer;
+  
+  flex-direction: row;
+  align-items: center;
+}
+#BarramobileIntest{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+#buttonmenu
+{
+  width: 200px;
+}
+#BarraMobile #BarramobileIntest .carrello
+{
+  width: 200px;
+}
+#BarraMobile #BarramobileIntest .logo{
+  width: 200px;
+}
+ #buttonmenu  img {
+  width: 40px;
+  height: 40px;
+}
+#BarraMobile #BarramobileIntest .logo {
+  width: 260px;
+  background-image: url(https://www.bulk.com/static/version1710741134/frontend/BulkPowders/old-rebrand/default/images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:40%;
+  height: 40px;
+}
+#BarraMobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+margin: 0% auto 0% auto;
+  width: 300px;
+  height: 90px;
+}
+#BarraMobile .RicercaMobile
+{
+  width: 820px;
+  height: 30px;
+  border: 2px solid #c2c2c2;
+  border-radius: 20px;
+}
+#BarraMobile #BarramobileIntest
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 855px;
+  justify-content: space-between;
+}
+#BarraPrincipale .logo{
+  background-image: url(https://www.bulk.com/static/version1710741134/frontend/BulkPowders/old-rebrand/default/images/logo.svg);
+  width:10%;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100%;
+
+}
+#BarraPrincipale .Barra {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #c2c2c2;
+  width:55%;
+  height: 65%;
+}
+
+#iconaBarraweb img{
+  width: 35px;
+  height: 35px;
+  }
+
+#BarraPrincipale .Barra .inputcerca
+{
+  height: 65%;
+  width: 85%;
+  border:10px solid #c2c2c2;
+  color: white;
+  font-size: 20;
+  background-color: #c2c2c2;
+  margin: auto 0 auto 0;
+}
+#BarraPrincipale .Barra  #iconaBarraWeb{
+
+ width: 5%;
+ height: 70%;
+ margin: 8px 4px 0% 18;
+}
+#BarraPrincipale .Barra  #iconaBarraweb img{
+width: 35px;
+height: 35px;
+}
+
+#BarraPrincipale .Barra #ButtonCerca
+{
+  margin: auto 0 auto 0;
+width: 5%;
+height: 80%;
+cursor: pointer;
+}
+#BarraPrincipale .Barra #ButtonCerca p
+{
+  margin: 0 0 0 0;
+  font-size: 30;
+  font-weight: 600;
+}
+#BarraPrincipale .logonazione{
+  background-color:green;
+  border-radius:20px;
+  width: 3%;
+  height: 40%;
+}
+#BarraPrincipale .divisore{
+  background-position: center;
+  background-color:black;
+  background-size: 80px;
+  background-color:black;
+  width:0.2%;
+  height: 50%;
+}
+#BarraPrincipale .utente{
+   border-radius: 10px;
+  background-color: purple;
+  width:4%;
+  height: 55%;
+}
+#BarraPrincipale .carrello{
+  background-color:red;
+  border-radius:10px;
+  width: 4%;
+  height: 55%;
+}
+
+body {
+  overflow-y: scroll; 
+  overflow-x: hidden;
+   }
+  nav.a{
+      font-weight: bold;
+      font-size: 24px;
+      background-color: tomato;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 50px;
+  
+  }
+
+
+  #menu-hamburger{
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    background-color: #fff ;
+}
+#menu-hamburger #Offerte
+{
+color: red;
+}
+#menu-hamburger a
+{
+    border-bottom: solid 1px #f0f0f0;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 2px;
+    padding: 0 13px;
+    border-radius: 2px ;
+    height: 42px;
+}
+.ButtonLingua 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ButtonAccount
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Menu-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 95%;
+    position:relative;
+  }
+#StrisciaOpaca
+{
+    width: 5%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0 , 0, 0.7);
+   
+}
+#StrisciaOpaca #buttonclosemenumobile
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 35;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .Offerte{
+    color: red;
+  }
+ 
+  
+
+section
+{
+  height: 4000px;
+}
+
+   #SelezioneProdottiIndex
+{
+  width: 98vw;
+  height: 4170px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+#container-banner
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0% auto 0% auto;
+  width: 86%;
+}
+#Banner
+{
+ 
+height: 76%;
+width: 100%;
+
+}
+
+
+#imgBanner a.buttonhidden,#imgBanner a.buttonprincipal{
+display: flex;
+flex-direction: row;
+justify-content: center;
+ height: 60px;
+ width: 120px;
+background-color: white;
+  cursor: pointer;
+
+ 
+  border: 2px solid red;
+  border-radius: 100px;
+}
+#imgBanner a.buttonprincipal #textbutton,#imgBanner a.buttonhidden #textbutton{
+  align-items: stretch;
+  color: black;
+ 
+  justify-content: left;
+  
+text-align: center;
+ }
+ 
+ #imgbanner #taglioimgbanner
+ {
+  width: 40%;
+  height: 400px;
+ }
+ #Banner #text.textprincipal
+ {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+ }
+  .textnone{
+  display: none;
+ }
+ #Banner #text2.texthidden{
+  display: flex;
+  width: 70%;
+  align-items:flex-end;
+  margin: 40px;
+  flex-direction: column;
+  justify-content: center;
+ }
+ #Banner #text2 .text
+ {
+  display: flex;
+  width: 185px;
+  color: white;
+  flex-direction: row;
+  margin: 2%;
+  justify-content: space-between;
+ }
+ #Banner #text2 .text .textsmall{
+  margin-top: -16;
+  text-align: center;
+  font-size: 20;
+ }
+ #Banner #text2 .textcolumn
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ #Banner #text2 h1
+ {
+  display: flex;
+
+  justify-content: space-between;
+ }
+ #imgBanner p.textgen
+ {
+  font-size: 25;
+  text-align: center;
+  color: white;
+  align-items: center;
+ }
+ #imgBanner div h1
+ {
+
+  font-size:30;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  align-items: center;
+ }
+ .hiddenimgBanner{
+  background-image: url(IT-clear-banner.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+
+ }
+
+
+.imgbannerprinc
+{
+  background-image: url(risorse/desktop_v1_1_.jpeg);
+  background-size: 100% 100%;
+ background-position: center;
+}
+#imgBanner
+{
+  border-radius: 10px;
+  overflow: hidden;
+  position: static;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+}
+#imgklarna {
+
+background-color: #fff;
+border: 1px solid #d6d6d6;
+border-radius: 10px;
+position: relative;
+width: 100%;
+height: 60px;
+display: block;
+margin: 16px auto 0% auto;
+
+}
+#imgklarna div
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+#imgklarna .text{
+display: flex;
+flex-direction: row;
+  position: relative;
+  width: auto
+}
+#imgklarna .text p {
+  display: inline;
+  position: relative;
+ 
+}
+#imgklarna .image
+{
+
+  padding: 0 17px 0 9px;
+}
+#imgklarna .image img
+{
+  width: 60px;
+    display: block;
+}
+
+#VetrinaSelezionaProdotti
+{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  height: 5%;
+  margin: 0% auto 0% auto;
+}
+#VetrinaSelezionaProdotti h1{
+  font-size: 50;
+  font-weight: 600;
+}
+#VetrinaSelezionaProdotti #ButtonSezioneProdottti
+{
+  
+  display: flex;
+  width: 65%;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#VetrinaSelezionaProdotti #ButtonSezioneProdottti a
+{
+  cursor: pointer;
+  text-align: center;
+  font-size: 32px;
+  margin-left: 2%;
+  font-weight: 600;
+      color: black;
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 20px;
+      border: 2px solid  #f1f1f1;
+}
+
+
+#Nuovi_Alimenti
+{
+  margin: 0% auto 0% auto;
+  display: flex;
+  width: 86%;
+  height: 20%;
+overflow-y: hidden;
+  flex-direction: column;
+}
+#Nuovi_Alimenti h1{
+  font-size: 50;
+  font-weight: 600;
+}
+#Nuovi_Alimenti .ProdottiArticoli
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+   overflow-x: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#Nuovi_Alimenti .ImgArticolo
+{
+  width: 2%;
+}
+#Nuovi_Alimenti .ProdottoArticoloInfo
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+justify-content: space-between;
+  padding-left: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+} 
+.ProdottoArticoloInfo .imgArticolo img
+{
+  width: 450px; 
+
+ border-radius: 20px;
+}
+.ProdottoArticoloInfo{
+  width: 30%;
+}
+.ProdottoArticoloInfo .imgArticolo
+{
+ position: relative;
+
+}
+
+.ProdottoArticoloInfo .Prova
+{
+ display: flex;
+ flex-direction: row;
+
+}
+.ProdottoArticoloInfo .TestoArticolo
+{
+ width: 100%;
+ height: 100%;
+ 
+}
+.ProdottoArticoloInfo .TestoArticolo h2{
+font-size: 20;
+font-weight: 600;
+text-align: left;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .Gusto
+{
+  width: 20%;
+cursor: pointer;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonZoom
+{
+width: 20%;
+cursor: pointer;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonPreferito
+{
+width: 20%;
+cursor: pointer;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonPreferito p
+{
+  color: blue;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto .ButtonZoom p
+{
+  color: red;
+}
+.ProdottoArticoloInfo .TestoArticolo .ButtonProdotto p
+{
+  text-align: center;
+
+background-color: #f7f7f7;
+border: 2px solid #f7f7f7;
+border-radius: 10px;
+}
+.ProdottoArticoloInfo .TestoArticolo .Costo .Prezzo
+{
+  font-weight: 500;
+  font-size: 28;
+}
+.ProdottoArticoloInfo .TestoArticolo .Costo .Sconto
+{
+  
+  font-weight: 500;
+  font-size: 28;
+  margin-left: 1%;
+  color: red;
+}
+.ProdottoArticoloInfo .TestoArticolo .Costo
+{
+display: flex;
+flex-direction: row;
+}
+
+#VetrinaPreferiti
+{
+  display: flex;
+  width: 86%;
+    height: 20%;
+  flex-direction: column;
+  margin: 0% auto 0% auto;
+justify-content: space-between;
+}
+#VetrinaPreferiti .ProdottiArticoli
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+   overflow-x: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+#VetrinaPreferiti #ArticoliPreferiti{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+justify-content: space-between;
+
+}
+#VetrinaPreferiti .ProdottoArticoloInfo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+#VetrinaPreferiti h1
+{
+  font-size: 50;
+  font-weight: 600;
+}
+
+
+
+
+#Vetrina1{
+display: flex;
+width: 86%;
+height: 13%;;
+
+flex-direction: row;
+align-items: center;
+margin: 4% auto 0% auto;
+}
+
+
+#Vetrina2{
+  display: flex;
+  margin: 0% auto 0% auto;
+  width: 86%;
+  height: 13%;;
+  flex-direction: row;
+  align-items: center;
+}
+
+.VetrinaPromozioniFoto
+{
+  width: 85%;
+  height: 85%;
+  background-size: cover;
+  background-position: right center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.VetrinaPromozioniFoto img
+{
+  width: 100%;
+  height: 100%;
+}
+.VetrinaPromozioniTesto
+{
+  align-items: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.VetrinaPromozioniTesto div
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0% 2% auto auto;
+  justify-content: center;
+}
+.VetrinaPromozioniTesto div p
+{
+  text-align: center;
+ 
+  width: 100%;
+  font-size: 30;
+  font-weight: 520;
+color: black;
+}
+.VetrinaPromozioniTesto div h2{
+  text-align: center;
+  width: 100%;
+  font-weight: 800;
+  font-size: 50;
+}
+.VetrinaPromozioniTesto a.button {
+  display: flex;
+  width: 165px;
+  height:45px;
+  flex-direction: row;
+  border: 2px solid black;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+}
+.VetrinaPromozioniTesto a.button p{
+  text-align: center;
+  margin: 0% auto 0% auto;
+  font-weight: 550;
+  font-size: 28;
+}
+#VetrinaObiettivi
+{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+height: 13%;
+margin: 0% auto 0% auto;
+ 
+
+
+}
+#VetrinaObiettivi h1{
+  font-size: 50
+}
+#VetrinaObiettivi #Obiettivi
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+#Obiettivi a
+{
+border: 2px solid black;
+border-radius: 2px;
+width: 100px;
+text-align: center;
+justify-content: center;
+height: 100px;
+position: relative;
+    width: calc(20% - 32px);
+    min-width: calc(20% - 32px);
+    padding: 17% 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    margin: 0 40px 0 0;
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+}
+
+#Obiettivi #Resistenza
+{
+ width: 100px;
+ height: 100px;
+  background-image: url('risorse/obiettivi/Build_Muscle_640x640.webp');
+  background-size: cover;
+}
+#Obiettivi p
+{
+top: 50%;
+left: 50%;
+font-size: 30;
+font-weight: 600;
+width: calc(100% - 30px);
+transform: translate(-50%, -50%);
+position: absolute;
+color: white;
+z-index: 1;
+align-items: center;
+text-align: center;
+}
+#Obiettivi #MangiaVegano
+{
+ width: 100px;
+ background-size: cover; 
+ height: 100px;
+  background-image: url('risorse/obiettivi/eat_vegan_image.webp');
+}
+
+#Obiettivi #AumentoMuscolatura
+{
+ width: 100px;
+ background-size: cover;
+ height: 100px;
+  background-image: url("risorse/obiettivi/Endurance_640x640.webp");
+}
+
+#Obiettivi #SaluteeBenessere
+{
+ width: 100px;
+ background-size: cover;
+ height: 100px;
+  background-image: url("risorse/obiettivi/Health_Wellness_640x640.webp");
+}
+#Obiettivi #MangiaPulito
+{
+ width: 100px;
+ height: 100px;
+ background-size: cover;
+  background-image: url(risorse/obiettivi/Weight_Loss_640x640.webp);
+}
+
+
+
+
+
+
+
+
+
+#newsletter
+{
+  padding: 80px 0 20px;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+#newsletter #text
+{
+
+text-align: center;
+font-weight: 600;
+font-size: 34;
+}
+#newsletter #text2
+{
+
+text-align: center;
+font-weight: 600;
+margin-top: 1%;
+font-size: 16;
+}
+#newsletter #Email
+{
+  
+
+  border: 2px solid grey;
+  border-radius: 10px;
+  text-align: center;
+   height: 15%;
+   width: 25%;
+  margin: 30px;
+}
+
+#newsletter #buttonnewsletter
+{
+  cursor: pointer;
+  width: 10%;
+  text-align: center ;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#Barrafooter
+{
+  margin: 30px auto 60px auto;
+  width: 100%;
+  display: flex;
+  
+  align-items: center;
+}
+
+#Barrafooter .card
+{
+  
+  align-items:center;
+  width: 25%;
+height: 30%;
+}
+#Barrafooter .card .button a
+{
+  margin: auto auto auto auto;
+  text-align: center;
+ }
+.card
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:center;
+}
+.card .image img
+{
+justify-content: left;
+height: 40px;
+width: 40px;
+}
+
+.card .head
+{
+  margin: auto auto auto auto;
+  line-height: 1.1;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #000;
+    margin: 0;
+}
+.card .paragrafo
+{
+  margin: 6px auto 10px auto;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+    width: 100%;
+}
+
+.card .button
+{
+display: flex;
+padding-left: 2px;
+align-items: center;
+  height: 40px;
+  width: 100px;
+border: 4px solid black;
+border-radius: 10px;
+}
+
+
+footer-section-news
+{
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  background-color:  #fafafa ;
+ height: 600px;
+ align-items: center;
+margin: auto auto auto auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footercondcart{
+  height: 20%;
+  width: 100%;
+  display: flex ;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#Footermenu
+{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+flex-direction: column;
+  margin-bottom: 20px;
+}
+#Footermenu a{
+  margin-top: 10px;
+}
+#Footercondizioni
+{
+  display: flex;
+  height: 40px ;
+  width: 60%;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+#Footercondizioni a
+{
+  margin: 4px;
+}
+#FooterCarte
+{
+  display: flex;
+    width: 35%;
+    flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;  
+}
+#FooterCarte img
+{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  height: 30px ;
+  width: 50px;
+  margin: 2px;
+  
+}
+#footmenusocial
+{
+  display: flex;
+  height: 70%;
+  width: 100%;
+  flex-direction:row;
+}
+#footersocial 
+{
+  display: flex;
+  margin: 8% 1% auto auto;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+#footersocial img
+{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 3%;
+
+}
+footer a{
+  cursor: pointer;
+}
+footer {
+  background-color:  #fafafa ;
+  height: 400px;
+  width: 100%;
+}
+
+#hiddenmenumobile{
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+
+}
+
+
+.hidden{
+  display: none;
+}
+
+@media (max-width: 3000px)
+{
+#BarraMobile{
+  display: none;
+}
+#hiddenhamburger
+{
+  display: none;
+}
+}
+
+
+@media (max-width: 900px) 
+{
+#BarraProdotto
+{
+  display: none;
+}
+#BarraMobile
+{
+  display: flex;
+}
+#BarraPrincipale{
+  display: none;
+}
+nav-mobile
+{
+  display: flex;
+}
+#Vetrina1
+{
+  height: 17%;
+  width: 115%;
+  flex-direction: column-reverse;
+  align-items: normal;
+}
+#Vetrina2
+{
+  height: 17%;
+  width: 115%;
+  flex-direction: column;
+  align-items: normal;
+}
+
+#VetrinaPreferiti
+{
+  height: 18%;
+  width: 94%;
+}
+#VetrinaSelezioneProdotti
+{
+  height: 6%;
+}
+#VetrinaObiettivi
+{
+  height: 13%;
+}
+#VetrinaSelezionaProdotti
+{
+  width: 97%;
+}
+#VetrinaObiettivi
+{
+  width: 98%;
+}
+#SelezioneProdottiIndex
+{
+  height: 3700px;
+  width: 100%;
+}
+#container-banner
+{
+  width: 97%;
+}
+}
+#Spotify
+{
+  width: 86%;
+  
+  margin: auto auto auto auto;
+}
+# h1
+{
+  width: 86%;
+  font-size: 30;
+}
+#ButtonSpotify
+{
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85%;
+  height: 2%
+}
+#ButtonSpotify div
+{
+  
+ border: 2px solid black;
+ text-align: center;
+ border-radius: 2px;
+  width: 20%;
+  height: 30%
+}
+#album-view {
+  
+  display: flex;
+ width: 86%;
+  height: 7%;
+}
+
+#album-view .album {
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 5px;
+  height: 75%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#album-view img {
+  max-width: 100%;
+}
+
+#Modalview .CarelloLaterale{
+  position: relative;
+  width: 30%;
+  height: 100%;
+  margin: 0 0 0 auto;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+#Modalview .CarelloLaterale .TextCarrello
+{
+width: 100%;
+height:auto;
+text-align: center;
+background-color: #fff;
+}
+#Modalview .CarelloLaterale .PrezzoCarrello{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+
+}
+#Modalview .CarelloLaterale .PrezzoCarrello p{
+  width: 95%;
+  height: 10%;
+display: flex;
+flex-direction: column;
+}
+#Modalview .CarelloLaterale .ButtonCarrello{
+  width: 100%;
+  height: 20%;
+
+}
+#Modalview .contenitoreelementicarrello
+{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+#Modalview .CarelloLaterale .containerprez .ButtonPaga {
+
+  border-radius: 10px;
+  width: 95%;
+  margin: auto auto auto auto;
+text-align: center;
+  background-color: #e7e7e7;
+  height: 15%;
+}
+#Modalview .CarelloLaterale .contenitoreelementicarrello
+{
+  width: 100%;
+  height: 70%;
+  background-color: #fff;
+  overflow-y: auto;
+    overflow-x: hidden;
+}
+#Modalview .CarelloLaterale .containerprez p
+{
+text-align: right;
+}
+#Modalview .CarelloLaterale .containerprez
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+width: 100%;
+height: 15%;
+}
+#Modalview .ProdottoCheckout
+{
+display: flex;
+border:2px solid black;
+border-radius: 10px;
+width: 95%;
+margin: 0 auto 2% auto;
+height: auto;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#modalview .ProdottoCheckout  img
+{
+  width: 40%;
+  border-radius: 10px;
+height: 100%;
+}
+#Modalview .ProdottoCheckout .ProdottoCheckoutContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+
+  height: 100%;
+}
+
+
+#Modalview .ProdottoCheckout .ProdottoCheckoutPrezzo
+{
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: 2% 0 3% 0;
+}
+
+#Modalview .ProdottoCheckout .ProdottoCheckoutNome
+{
+  text-align: center;
+  height: auto;
+  width: auto;
+    margin: 2% 0 3% 0;
+}
+#Modalview .ProdottoCheckout .ProdottoCheckoutTipogia
+{
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 2% 0 3% 0;
+
+
+}
